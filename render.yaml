@@ -1,0 +1,8 @@
+services:
+- 	type : web
+	name:vosk-server
+	env:python
+	buildCommand:"pip install -r  requirenets.txt"
+	startCommand:"python  server.py"
+plan:free
+	
